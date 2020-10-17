@@ -15,11 +15,12 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Animal cachorro  = new Animal();
-        cachorro.nome = "Lola";
+        Animal cachorro  = new Animal("Lulu",6,25,true);
+        //cachorro.setNome("Totó");
+        //cachorro.setIdade(12);
         
-        cachorro.emiteSom();
-        System.out.println("Meu animal se chama " + cachorro.nome);
+        // cachorro.emiteSom();
+        System.out.println("Meu animal se chama " + cachorro.getNome());
         
     }
     
