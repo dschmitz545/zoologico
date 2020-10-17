@@ -19,6 +19,9 @@ public class Principal {
         //cachorro.setNome("Totó");
         //cachorro.setIdade(12);
         
+        Animal a2 = new Animal();
+        System.out.println("Animal 2: " + a2.getNome());
+        
         // cachorro.emiteSom();
         System.out.println("Meu animal se chama " + cachorro.getNome());
         

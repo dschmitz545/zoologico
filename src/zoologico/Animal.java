@@ -64,13 +64,12 @@ public class Animal {
         this.acordado = acordado;
     }
     
+    // Consutrutor vazio, que define valores padrão, mas que passa pelo construtor principal
     public Animal() {
-        this.nome = "";
-        this.idade = 0;
-        this.peso = 0;
-        this.acordado = false;
+        this("",0,0,false);
     }
     
+    // Definido como construtor principal
     public Animal(String nome, int idade, double peso, boolean acordado) {
         this.nome = nome;
         this.idade = idade;
